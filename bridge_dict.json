@@ -1,0 +1,984 @@
+{
+    "lights": {
+        "1": {
+            "state": {
+                "on": false,
+                "bri": 40,
+                "hue": 7263,
+                "sat": 221,
+                "effect": "none",
+                "xy": [
+                    0.5223,
+                    0.4139
+                ],
+                "ct": 488,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-11-09T12:37:52"
+            },
+            "type": "Extended color light",
+            "name": "Bedside Left",
+            "modelid": "LCT014",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 1000,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:02:7a:f5:97-0b",
+            "swversion": "1.108.7",
+            "swconfigid": "22B2F9F7",
+            "productid": "Philips-LCT014-1-A19ECLv4"
+        },
+        "2": {
+            "state": {
+                "on": false,
+                "bri": 40,
+                "hue": 7263,
+                "sat": 221,
+                "effect": "none",
+                "xy": [
+                    0.5223,
+                    0.4139
+                ],
+                "ct": 488,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-11-09T12:42:55"
+            },
+            "type": "Extended color light",
+            "name": "Bedside Right",
+            "modelid": "LCT014",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 1000,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:02:71:43:8a-0b",
+            "swversion": "1.108.7",
+            "swconfigid": "22B2F9F7",
+            "productid": "Philips-LCT014-1-A19ECLv4"
+        },
+        "3": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "hue": 5637,
+                "sat": 43,
+                "effect": "none",
+                "xy": [
+                    0.4136,
+                    0.3798
+                ],
+                "ct": 295,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-11-09T12:43:16"
+            },
+            "type": "Extended color light",
+            "name": "Studio Right",
+            "modelid": "LCT014",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 1000,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:02:71:22:39-0b",
+            "swversion": "1.108.7",
+            "swconfigid": "22B2F9F7",
+            "productid": "Philips-LCT014-1-A19ECLv4"
+        },
+        "6": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "alert": "select",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T11:58:20"
+            },
+            "type": "Dimmable light",
+            "name": "Living Room Candle R",
+            "modelid": "LWE001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue white candle",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 2000,
+                    "maxlumen": 450
+                },
+                "streaming": {
+                    "renderer": false,
+                    "proxy": false
+                }
+            },
+            "config": {
+                "archetype": "candlebulb",
+                "function": "functional",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:06:c2:49:64-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "B87BACB7",
+            "productid": "Philips-LWE001-1-E12DLv1"
+        },
+        "7": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "alert": "select",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T11:58:05"
+            },
+            "type": "Dimmable light",
+            "name": "Living Room Candle L",
+            "modelid": "LWE001",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue white candle",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 2000,
+                    "maxlumen": 450
+                },
+                "streaming": {
+                    "renderer": false,
+                    "proxy": false
+                }
+            },
+            "config": {
+                "archetype": "candlebulb",
+                "function": "functional",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:06:c0:82:d7-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "B87BACB7",
+            "productid": "Philips-LWE001-1-E12DLv1"
+        },
+        "8": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "alert": "select",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T11:58:10"
+            },
+            "type": "Dimmable light",
+            "name": "Dining Table Lamp",
+            "modelid": "LWA003",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue white Lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 5000,
+                    "maxlumen": 800
+                },
+                "streaming": {
+                    "renderer": false,
+                    "proxy": false
+                }
+            },
+            "config": {
+                "archetype": "pendantround",
+                "function": "functional",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:08:76:9b:0e-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "8FB9F788",
+            "productid": "Philips-LWA003-1-A19DLv5"
+        },
+        "10": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "hue": 5628,
+                "sat": 81,
+                "effect": "none",
+                "xy": [
+                    0.443,
+                    0.3824
+                ],
+                "ct": 340,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T11:58:13"
+            },
+            "type": "Extended color light",
+            "name": "Studio Center",
+            "modelid": "LCA005",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:0b:61:20:40-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "5419E9E3",
+            "productid": "Philips-LCA005-1-A19ECLv7"
+        },
+        "11": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "hue": 2819,
+                "sat": 43,
+                "effect": "none",
+                "xy": [
+                    0.4233,
+                    0.3725
+                ],
+                "ct": 310,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T12:03:23"
+            },
+            "type": "Extended color light",
+            "name": "Studio Left",
+            "modelid": "LCA005",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:0b:61:23:35-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "5419E9E3",
+            "productid": "Philips-LCA005-1-A19ECLv7"
+        },
+        "12": {
+            "state": {
+                "on": true,
+                "bri": 203,
+                "hue": 5637,
+                "sat": 43,
+                "effect": "none",
+                "xy": [
+                    0.4136,
+                    0.3798
+                ],
+                "ct": 295,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-05-24T12:03:39"
+            },
+            "type": "Extended color light",
+            "name": "Studio Floor Left",
+            "modelid": "LCA005",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 800,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "sultanbulb",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:0b:61:2f:8f-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "5419E9E3",
+            "productid": "Philips-LCA005-1-A19ECLv7"
+        },
+        "15": {
+            "state": {
+                "on": false,
+                "bri": 254,
+                "hue": 41727,
+                "sat": 254,
+                "effect": "none",
+                "xy": [
+                    0.1574,
+                    0.2107
+                ],
+                "ct": 153,
+                "alert": "select",
+                "colormode": "xy",
+                "mode": "homeautomation",
+                "reachable": true
+            },
+            "swupdate": {
+                "state": "noupdates",
+                "lastinstall": "2023-11-24T12:18:49"
+            },
+            "type": "Extended color light",
+            "name": "Studio Floor Right",
+            "modelid": "LCA007",
+            "manufacturername": "Signify Netherlands B.V.",
+            "productname": "Hue color lamp",
+            "capabilities": {
+                "certified": true,
+                "control": {
+                    "mindimlevel": 200,
+                    "maxlumen": 1100,
+                    "colorgamuttype": "C",
+                    "colorgamut": [
+                        [
+                            0.6915,
+                            0.3083
+                        ],
+                        [
+                            0.17,
+                            0.7
+                        ],
+                        [
+                            0.1532,
+                            0.0475
+                        ]
+                    ],
+                    "ct": {
+                        "min": 153,
+                        "max": 500
+                    }
+                },
+                "streaming": {
+                    "renderer": true,
+                    "proxy": true
+                }
+            },
+            "config": {
+                "archetype": "groundspot",
+                "function": "mixed",
+                "direction": "omnidirectional",
+                "startup": {
+                    "mode": "safety",
+                    "configured": true
+                }
+            },
+            "uniqueid": "00:17:88:01:0d:b3:f0:07-0b",
+            "swversion": "1.104.2",
+            "swconfigid": "47270DB8",
+            "productid": "Philips-LCA007-1-A19HECLv1"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Bedroom",
+            "lights": [
+                "1",
+                "2"
+            ],
+            "sensors": [],
+            "type": "Room",
+            "state": {
+                "all_on": false,
+                "any_on": false
+            },
+            "recycle": false,
+            "class": "Bedroom",
+            "action": {
+                "on": false,
+                "bri": 40,
+                "hue": 7263,
+                "sat": 221,
+                "effect": "none",
+                "xy": [
+                    0.5223,
+                    0.4139
+                ],
+                "ct": 488,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        },
+        "2": {
+            "name": "Studio",
+            "lights": [
+                "15",
+                "11",
+                "3",
+                "10",
+                "12"
+            ],
+            "sensors": [],
+            "type": "Room",
+            "state": {
+                "all_on": false,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "Studio",
+            "action": {
+                "on": true,
+                "bri": 203,
+                "hue": 5637,
+                "sat": 43,
+                "effect": "none",
+                "xy": [
+                    0.4136,
+                    0.3798
+                ],
+                "ct": 295,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        },
+        "4": {
+            "name": "Living Room",
+            "lights": [
+                "6",
+                "7",
+                "8"
+            ],
+            "sensors": [],
+            "type": "Room",
+            "state": {
+                "all_on": true,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "Other",
+            "action": {
+                "on": true,
+                "bri": 203,
+                "alert": "select"
+            }
+        },
+        "200": {
+            "name": "PhotonEntertainmentGroup",
+            "lights": [
+                "3",
+                "10",
+                "11",
+                "12",
+                "15"
+            ],
+            "sensors": [],
+            "type": "Entertainment",
+            "state": {
+                "all_on": false,
+                "any_on": true
+            },
+            "recycle": false,
+            "class": "TV",
+            "stream": {
+                "proxymode": "auto",
+                "proxynode": "/bridge",
+                "active": false,
+                "owner": null
+            },
+            "locations": {
+                "3": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "10": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "11": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "12": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "15": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "action": {
+                "on": false,
+                "bri": 254,
+                "hue": 41727,
+                "sat": 254,
+                "effect": "none",
+                "xy": [
+                    0.1574,
+                    0.2107
+                ],
+                "ct": 153,
+                "alert": "select",
+                "colormode": "xy"
+            }
+        }
+    },
+    "config": {
+        "name": "Hue Bridge",
+        "zigbeechannel": 20,
+        "bridgeid": "001788FFFE46D138",
+        "mac": "00:17:88:46:d1:38",
+        "dhcp": true,
+        "ipaddress": "10.0.0.200",
+        "netmask": "255.255.255.0",
+        "gateway": "10.0.0.1",
+        "proxyaddress": "none",
+        "proxyport": 0,
+        "UTC": "2023-12-09T21:30:17",
+        "localtime": "2023-12-09T13:30:17",
+        "timezone": "America/Los_Angeles",
+        "modelid": "BSB002",
+        "datastoreversion": "165",
+        "swversion": "1961076030",
+        "apiversion": "1.61.0",
+        "swupdate2": {
+            "checkforupdate": false,
+            "lastchange": "2023-11-24T12:18:51",
+            "bridge": {
+                "state": "noupdates",
+                "lastinstall": "2023-11-21T12:30:17"
+            },
+            "state": "noupdates",
+            "autoinstall": {
+                "updatetime": "T04:00:00",
+                "on": true
+            }
+        },
+        "linkbutton": false,
+        "portalservices": true,
+        "analyticsconsent": true,
+        "portalconnection": "disconnected",
+        "portalstate": {
+            "signedon": false,
+            "incoming": false,
+            "outgoing": false,
+            "communication": "disconnected"
+        },
+        "internetservices": {
+            "internet": "connected",
+            "remoteaccess": "connected",
+            "time": "connected",
+            "swupdate": "connected"
+        },
+        "factorynew": false,
+        "replacesbridgeid": null,
+        "starterkitid": "",
+        "backup": {
+            "status": "idle",
+            "errorcode": 0
+        },
+        "whitelist": {
+            "ae6a7df1-ad6f-4d50-b4fc-d5d999d14b4d": {
+                "last use date": "2017-09-09T07:44:34",
+                "create date": "2016-12-21T07:51:40",
+                "name": "hue_ios_app#Six Pence"
+            },
+            "e7406b47-96d8-4241-a52d-f1f58aa4166b": {
+                "last use date": "2022-05-26T03:26:17",
+                "create date": "2016-12-21T08:07:03",
+                "name": "ca9c8cef-7f7c-4fc8-b790-beb6965bb18c-0"
+            },
+            "6417c037-0f91-4088-9e75-cd2ef9f58ba9": {
+                "last use date": "2017-06-04T06:08:11",
+                "create date": "2016-12-21T08:31:59",
+                "name": "Palettes for Hue#Six Pence"
+            },
+            "453774ab-b32e-4e8a-8925-882f1b84bc58": {
+                "last use date": "2017-06-04T06:08:11",
+                "create date": "2016-12-21T08:37:15",
+                "name": "Thorlight#Six Pence"
+            },
+            "ca84d203-76b6-4831-be02-957852285b57": {
+                "last use date": "2016-12-22T06:38:29",
+                "create date": "2016-12-22T06:24:54",
+                "name": "Echo"
+            },
+            "269227d1-b207-47af-89ec-d7ba555a0819": {
+                "last use date": "2019-07-18T04:07:49",
+                "create date": "2016-12-22T06:24:54",
+                "name": "Echo"
+            },
+            "db590c29-4e92-457d-b38c-9245680d26ea": {
+                "last use date": "2016-12-22T07:53:29",
+                "create date": "2016-12-22T07:35:34",
+                "name": "hue_ios_app#Mooger"
+            },
+            "5d365ef2-c0a9-42ff-ad6a-5b5b0f70e1a3": {
+                "last use date": "2016-12-22T07:53:29",
+                "create date": "2016-12-22T07:44:52",
+                "name": "OnSwitch#Mooger"
+            },
+            "a533cb2f-29fb-46bf-9e1d-f7b302f2653a": {
+                "last use date": "2017-09-04T19:08:13",
+                "create date": "2017-09-04T18:55:46",
+                "name": "Alfred 2"
+            },
+            "699d4f6a-84b0-469c-a37c-3ef4d78a7004": {
+                "last use date": "2017-11-03T09:55:34",
+                "create date": "2017-11-01T08:38:09",
+                "name": "hue_ios_app#Six Daddy"
+            },
+            "2037420e-0eb6-40ed-9392-8ed8ccac843b": {
+                "last use date": "2019-09-26T15:47:34",
+                "create date": "2017-11-13T03:46:26",
+                "name": "hue_ios_app#Master Eight"
+            },
+            "ec959861-7712-4ea3-9d34-7c87be67560e": {
+                "last use date": "2019-08-03T00:49:35",
+                "create date": "2017-11-13T03:47:01",
+                "name": "HueParty#Master Eight"
+            },
+            "c038f284-cbcc-41e9-8285-d8b3720fbaf4": {
+                "last use date": "2018-06-01T02:11:32",
+                "create date": "2018-06-01T01:06:22",
+                "name": "Hue Sync#Tobeys-MacBook-Pro-"
+            },
+            "5e2529ff-f27a-4db7-b967-e5b0561a4f35": {
+                "last use date": "2018-06-01T02:11:32",
+                "create date": "2018-06-01T02:05:54",
+                "name": "Hue 2#Master Eight"
+            },
+            "f05f479e-4aa8-4603-9b63-28ec90a10dc2": {
+                "last use date": "2018-06-01T02:12:36",
+                "create date": "2018-06-01T02:12:36",
+                "name": "97fe9b34-924f-42f1-a4f9-d50816be6abc-0"
+            },
+            "42621b99-d3fd-41b8-a92e-2c59027555c7": {
+                "last use date": "2021-03-01T19:35:45",
+                "create date": "2019-12-01T23:12:18",
+                "name": "Hue 3#Eight Thirteen"
+            },
+            "b0ce0559-5e4a-4cb5-91bc-e6e8ebd13b12": {
+                "last use date": "2020-08-10T16:25:53",
+                "create date": "2020-04-17T05:24:36",
+                "name": "Lighter#Eight Thirteen"
+            },
+            "361364ae-b7a6-4c14-bbe3-63d6c500cf4e": {
+                "last use date": "2020-10-02T08:12:15",
+                "create date": "2020-08-29T21:30:14",
+                "name": "Hue 3#iPad"
+            },
+            "10515472-dd48-43a9-b736-92d78cf886ee": {
+                "last use date": "2020-08-29T21:34:48",
+                "create date": "2020-08-29T21:31:22",
+                "name": "ColorsForHue#alyssa.local"
+            },
+            "32ea6a42-a6a2-47c7-997b-c2d787a8cd79": {
+                "last use date": "2022-08-09T07:13:26",
+                "create date": "2020-10-30T05:34:03",
+                "name": "Hue 3#One Two One Two"
+            },
+            "74c3d995-4476-4c4d-9e1e-4cb6d58369fa": {
+                "last use date": "2021-10-24T05:35:23",
+                "create date": "2021-03-02T01:23:06",
+                "name": "Lighter#One Two One Two"
+            },
+            "53f7a175-c922-42c6-bbc4-44a552a484bb": {
+                "last use date": "2021-06-29T02:18:40",
+                "create date": "2021-06-28T04:59:54",
+                "name": "OnSwitch#One Two One Two"
+            },
+            "84bedaba-12cc-44a5-85b4-f9d0b879240f": {
+                "last use date": "2021-06-29T01:31:48",
+                "create date": "2021-06-28T23:58:31",
+                "name": "Lamptier#OneTwoOneTwo"
+            },
+            "84715df8-643f-45a4-bfb9-a3d6f05f34a0": {
+                "last use date": "2023-12-09T21:27:19",
+                "create date": "2022-08-15T22:47:05",
+                "name": "Hue#Twelve Pocket"
+            },
+            "d5aa3aea-f205-475c-ab96-8359062e8bc7": {
+                "last use date": "2022-12-06T22:00:34",
+                "create date": "2022-11-02T04:53:15",
+                "name": "Hue Sync#Kenobi.local"
+            },
+            "70c4eb2f-fced-49c0-a1a6-0163dd9005f0": {
+                "last use date": "2023-12-05T18:48:40",
+                "create date": "2023-12-05T09:29:04",
+                "name": "Photon#iPad"
+            },
+            "Hq3j0u-Of-vRnSVMNVHfJcWrrmyOW9emcM0EKjZa": {
+                "last use date": "2023-12-09T21:30:17",
+                "create date": "2023-12-09T21:23:32",
+                "name": "python_hue"
+            }
+        }
+    },
+    "schedules": {},
+    "scenes": {},
+    "rules": {},
+    "sensors": {
+        "1": {
+            "state": {
+                "daylight": true,
+                "lastupdated": "2023-12-09T15:18:00"
+            },
+            "config": {
+                "on": true,
+                "configured": true,
+                "sunriseoffset": 30,
+                "sunsetoffset": -30
+            },
+            "name": "Daylight",
+            "type": "Daylight",
+            "modelid": "PHDL00",
+            "manufacturername": "Signify Netherlands B.V.",
+            "swversion": "1.0"
+        }
+    },
+    "resourcelinks": {}
+}
