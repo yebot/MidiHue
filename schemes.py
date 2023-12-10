@@ -57,4 +57,11 @@ SCHEME = {
         "Floor Left": "white",
         "Floor Right": "white",
     },
+    NOTE["D1"]: {
+        "Center": "black",
+        "Left": "black",
+        "Right": "black",
+        "Floor Left": "white",
+        "Floor Right": "white",
+    },
 }
