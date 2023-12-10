@@ -7,15 +7,15 @@ STUDIO_LIGHT = {
     "Floor Right": "Studio Floor Right",
 }
 DEFAULT = {
-    "transition_time": 4,
+    "transition_time": 5,
     "brightness": 254,
     "saturation": 254,
     "color_temp": 366,
 }
 HUE = {
     "red": 0,
-    "orange": 2500,
-    "yellow": 12750,
+    "orange": 4500,
+    "yellow": 11000,
     "green": 25500,
     "blue": 46920,
     "purple": 56100,
@@ -38,5 +38,6 @@ NOTE = {
     "A#0": 34,
     "B0": 35,
     "C1": 36,
+    "C#1": 37,
     "D1": 38,
 }
