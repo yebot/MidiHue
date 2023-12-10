@@ -45,8 +45,6 @@ def set_studio_light(
         "transitiontime": transition_time * 10,
         "on": True,
         "bri": brightness,
-        # "sat": saturation,
-        # "hue": HUE[hue],
     }
     if hue.lower() == "black":
         light_params["on"] = False
@@ -91,12 +89,6 @@ def midi_callback(message, time_stamp):
     # Check if the note is ON and is in the SCHEME
     if message[0] == 144 and velocity > 0 and note in SCHEME:
         apply_scheme(note)
-
-    # Check if this is a Note On message for C1
-    # if message[0] == 144 and message[1] == 24:
-    #     set_studio_light(STUDIO_LIGHT["Center"], "red")
-    #     time.sleep(2)
-    #     set_studio_light(STUDIO_LIGHT["Center"], "white")
 
 
 def apply_scheme(note):
