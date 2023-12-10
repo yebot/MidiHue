@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from phue import Bridge
 import rtmidi
+import argparse
 
 # import json
 import time
@@ -8,10 +9,23 @@ import time
 from constants import BRIDGE_IP_ADDRESS, STUDIO_LIGHT, DEFAULT, HUE
 from schemes import SCHEME
 
+# Args
+parser = argparse.ArgumentParser(
+    description="Control Philips Hue lights based on MIDI input."
+)
+parser.add_argument(
+    "--connect",
+    action="store_true",
+    help="Force the script to connect to the Hue Bridge",
+)
+args = parser.parse_args()
+
+
 b = Bridge(BRIDGE_IP_ADDRESS)
 
 # If the app is not registered and the button is not pressed, press the button and call connect() (this only needs to be run a single time)
-# b.connect()
+if args.connect:
+    b.connect()
 
 # Get the bridge state (This returns the full dictionary that you can explore)
 bridge_dict = b.get_api()
