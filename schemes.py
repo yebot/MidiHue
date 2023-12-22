@@ -1,74 +1,178 @@
 from constants import NOTE
 
-SCHEME = {
-    NOTE["C0"]: {
-        "Center": "red",
-        "Left": "red",
-        "Right": "red",
-        "Floor Left": "blue",
-        "Floor Right": "blue",
-    },
-    NOTE["C#0"]: {
+PALETTE = {
+    "red": {
         "Center": "red",
         "Left": "red",
         "Right": "red",
         "Floor Left": "red",
         "Floor Right": "red",
     },
-    NOTE["D0"]: {
-        "Center": "blue",
-        "Left": "blue",
-        "Right": "blue",
-        "Floor Left": "red",
-        "Floor Right": "red",
-    },
-    NOTE["E0"]: {
-        "Center": "blue",
-        "Left": "blue",
-        "Right": "blue",
-        "Floor Left": "green",
-        "Floor Right": "green",
-    },
-    NOTE["F0"]: {
-        "Center": "green",
-        "Left": "green",
-        "Right": "green",
+    "red-blue": {
+        "Center": "red",
+        "Left": "red",
+        "Right": "red",
         "Floor Left": "blue",
         "Floor Right": "blue",
     },
-    NOTE["G0"]: {
-        "Center": "green",
-        "Left": "green",
-        "Right": "green",
+    "red-orange": {
+        "Center": "red",
+        "Left": "red",
+        "Right": "red",
+        "Floor Left": "orange",
+        "Floor Right": "orange",
+    },
+    "red-magenta": {
+        "Center": "red",
+        "Left": "red",
+        "Right": "red",
+        "Floor Left": "magenta",
+        "Floor Right": "magenta",
+    },
+    "orange": {
+        "Center": "orange",
+        "Left": "orange",
+        "Right": "orange",
+        "Floor Left": "orange",
+        "Floor Right": "orange",
+    },
+    "orange-yellow": {
+        "Center": "orange",
+        "Left": "orange",
+        "Right": "orange",
         "Floor Left": "yellow",
         "Floor Right": "yellow",
     },
-    NOTE["A0"]: {
+    "orange-red": {
         "Center": "orange",
         "Left": "orange",
         "Right": "orange",
         "Floor Left": "red",
         "Floor Right": "red",
     },
-    NOTE["B0"]: {
+    "yellow": {
+        "Center": "yellow",
+        "Left": "yellow",
+        "Right": "yellow",
+        "Floor Left": "yellow",
+        "Floor Right": "yellow",
+    },
+    "yellow-green": {
+        "Center": "yellow",
+        "Left": "yellow",
+        "Right": "yellow",
+        "Floor Left": "green",
+        "Floor Right": "green",
+    },
+    "yellow-orange": {
+        "Center": "yellow",
+        "Left": "yellow",
+        "Right": "yellow",
+        "Floor Left": "orange",
+        "Floor Right": "orange",
+    },
+    "green": {
+        "Center": "green",
+        "Left": "green",
+        "Right": "green",
+        "Floor Left": "green",
+        "Floor Right": "green",
+    },
+    "green-blue": {
+        "Center": "green",
+        "Left": "green",
+        "Right": "green",
+        "Floor Left": "blue",
+        "Floor Right": "blue",
+    },
+    "green-yellow": {
+        "Center": "green",
+        "Left": "green",
+        "Right": "green",
+        "Floor Left": "yellow",
+        "Floor Right": "yellow",
+    },
+    "blue": {
+        "Center": "blue",
+        "Left": "blue",
+        "Right": "blue",
+        "Floor Left": "blue",
+        "Floor Right": "blue",
+    },
+    "blue-green": {
+        "Center": "blue",
+        "Left": "blue",
+        "Right": "blue",
+        "Floor Left": "green",
+        "Floor Right": "green",
+    },
+    "blue-yellow": {
+        "Center": "blue",
+        "Left": "blue",
+        "Right": "blue",
+        "Floor Left": "yellow",
+        "Floor Right": "yellow",
+    },
+    "blue-red": {
+        "Center": "blue",
+        "Left": "blue",
+        "Right": "blue",
+        "Floor Left": "red",
+        "Floor Right": "red",
+    },
+    "blue-magenta": {
         "Center": "blue",
         "Left": "blue",
         "Right": "blue",
         "Floor Left": "magenta",
         "Floor Right": "magenta",
     },
-    NOTE["C1"]: {
+    "magenta": {
+        "Center": "magenta",
+        "Left": "magenta",
+        "Right": "magenta",
+        "Floor Left": "magenta",
+        "Floor Right": "magenta",
+    },
+    "magenta-blue": {
+        "Center": "magenta",
+        "Left": "magenta",
+        "Right": "magenta",
+        "Floor Left": "blue",
+        "Floor Right": "blue",
+    },
+    "magenta-red": {
+        "Center": "magenta",
+        "Left": "magenta",
+        "Right": "magenta",
+        "Floor Left": "red",
+        "Floor Right": "red",
+    },
+    "white": {
         "Center": "white",
         "Left": "white",
         "Right": "white",
         "Floor Left": "white",
         "Floor Right": "white",
     },
-    NOTE["D1"]: {
+    "black-white": {
         "Center": "black",
         "Left": "black",
         "Right": "black",
         "Floor Left": "white",
         "Floor Right": "white",
     },
+}
+
+SCHEME = {
+    NOTE["C0"]: PALETTE["red-blue"],
+    NOTE["C#0"]: PALETTE["red"],
+    NOTE["D0"]: PALETTE["blue-red"],
+    NOTE["E0"]: PALETTE["blue-green"],
+    NOTE["F0"]: PALETTE["green-blue"],
+    NOTE["G0"]: PALETTE["green-yellow"],
+    NOTE["A0"]: PALETTE["orange-red"],
+    NOTE["B0"]: PALETTE["blue-magenta"],
+    NOTE["C1"]: PALETTE["white"],
+    NOTE["D1"]: PALETTE["black-white"],
 }
