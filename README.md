@@ -1,7 +1,6 @@
 # MidiHue
 
-link to chatgpt
-https://chat.openai.com/c/4ec8797a-594c-4d8a-bb31-445a9cec484d
+An experiment in controlling Philips Hue lights with MIDI
 
 ## setup
 
